@@ -1,0 +1,13 @@
+{
+    "name": "camspiers/porter-stemmer",
+    "description": "Porter Stemmer created by Richard Heyes",
+    "authors": [
+        {
+            "name": "Richard Heyes",
+            "email": "support@rgraph.net"
+        }
+    ],
+    "autoload": {
+    	"classmap": [ "src/" ]
+    }
+}
