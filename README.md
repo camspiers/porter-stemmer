@@ -15,5 +15,5 @@
 # Usage
 
 ```php
-$stem = PorterStemmer::Stem($word);
+$stem = Porter::Stem($word);
 ```
