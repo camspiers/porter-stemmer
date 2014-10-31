@@ -2,15 +2,9 @@
 
 # Installation (with composer)
 
-```json
-{
-	"require": {
-		"camspiers/porter-stemmer": "1.0.0"
-	}
-}
+```sh
+composer require camspiers/porter-stemmer
 ```
-
-	$ composer install
 
 # Usage
 
