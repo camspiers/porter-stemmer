@@ -3,22 +3,40 @@
 # vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4:
 
 /**
- * Copyright (c) 2005 Richard Heyes (http://www.phpguru.org/)
+ * Copyright (c) 2005-2016 Richard Heyes (http://www.phpguru.org/)
+ *
+ * Portions Copyright 2003-2007 Jon Abernathy <jon@chuggnutt.com>
+ *
+ * Originally available under the GPL 2 or greater. Relicensed with permission
+ * of original authors under the MIT License in 2016.
  *
  * All rights reserved.
  *
- * This script is free software.
+ * @package   PorterStemmer
+ * @author    Richard Heyes
+ * @author    Jon Abernathy <jon@chuggnutt.com>
+ * @copyright 2005-2016 Richard Heyes (http://www.phpguru.org/)
+ * @license   http://www.opensource.org/licenses/mit-license.html MIT License
  */
 
 /**
- * PHP5 Implementation of the Porter Stemmer algorithm. Certain elements
+ * PHP 5 Implementation of the Porter Stemmer algorithm. Certain elements
  * were borrowed from the (broken) implementation by Jon Abernathy.
+ *
+ * See http://tartarus.org/~martin/PorterStemmer/ for a description of the
+ * algorithm.
  *
  * Usage:
  *
  *  $stem = PorterStemmer::Stem($word);
  *
  * How easy is that?
+ *
+ * @package   PorterStemmer
+ * @author    Richard Heyes
+ * @author    Jon Abernathy <jon@chuggnutt.com>
+ * @copyright 2005-2016 Richard Heyes (http://www.phpguru.org/)
+ * @license   http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class Porter
 {
